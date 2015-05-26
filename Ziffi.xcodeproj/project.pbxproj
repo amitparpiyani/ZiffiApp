@@ -7,6 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2F725AB31B1272E8006E3A64 /* ZiffiSaloonDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F725AB21B1272E8006E3A64 /* ZiffiSaloonDataSource.m */; };
+		2F725AB71B127FDE006E3A64 /* SaloonInfoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F725AB51B127FDE006E3A64 /* SaloonInfoTableViewCell.m */; };
+		2F725AB81B127FDE006E3A64 /* SaloonInfoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F725AB61B127FDE006E3A64 /* SaloonInfoTableViewCell.xib */; };
+		2F725AC11B12B40D006E3A64 /* UILabel+TTFExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F725AC01B12B40D006E3A64 /* UILabel+TTFExtension.m */; };
+		2F725AC31B12BD9F006E3A64 /* ziffy.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2F725AB91B12B30C006E3A64 /* ziffy.ttf */; };
+		2F725AC61B12FD9C006E3A64 /* ZiffiSaloonInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F725AC51B12FD9C006E3A64 /* ZiffiSaloonInfo.m */; };
+		2F725ACB1B1306CB006E3A64 /* DatabaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F725ACA1B1306CB006E3A64 /* DatabaseManager.m */; };
+		2FB571D01B0B172D00153983 /* Saloon.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FB571CF1B0B172D00153983 /* Saloon.m */; };
+		2FB571D31B0B82F600153983 /* MetaInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FB571D21B0B82F600153983 /* MetaInfo.m */; };
+		2FB571D61B0B8FAF00153983 /* SaloonSearchResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FB571D51B0B8FAF00153983 /* SaloonSearchResult.m */; };
+		2FB571DB1B0BA89800153983 /* PreloaderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FB571D91B0BA89800153983 /* PreloaderViewController.m */; };
+		2FB571DC1B0BA89800153983 /* PreloaderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2FB571DA1B0BA89800153983 /* PreloaderViewController.xib */; };
+		2FB571DF1B0C6B1B00153983 /* ZiffiSaloonManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FB571DE1B0C6B1B00153983 /* ZiffiSaloonManager.m */; };
 		2FE33F641B09BF090045B181 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FE33F631B09BF090045B181 /* main.m */; };
 		2FE33F671B09BF090045B181 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FE33F661B09BF090045B181 /* AppDelegate.m */; };
 		2FE33F6A1B09BF090045B181 /* Ziffi.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2FE33F681B09BF090045B181 /* Ziffi.xcdatamodeld */; };
@@ -15,6 +28,9 @@
 		2FE33F721B09BF090045B181 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FE33F711B09BF090045B181 /* Images.xcassets */; };
 		2FE33F751B09BF090045B181 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2FE33F731B09BF090045B181 /* LaunchScreen.xib */; };
 		2FE33F811B09BF090045B181 /* ZiffiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FE33F801B09BF090045B181 /* ZiffiTests.m */; };
+		2FE33F8D1B09C3AC0045B181 /* ServiceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FE33F8C1B09C3AC0045B181 /* ServiceManager.m */; };
+		2FEE44581B146DFC00F61CF9 /* ShaddowButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FEE44571B146DFC00F61CF9 /* ShaddowButton.m */; };
+		B720D056CF2367C09C3BA0D5 /* libPods-Ziffi.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 51A13B4CBCFFDE349348C884 /* libPods-Ziffi.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,6 +44,29 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2F725AB11B1272E8006E3A64 /* ZiffiSaloonDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZiffiSaloonDataSource.h; sourceTree = "<group>"; };
+		2F725AB21B1272E8006E3A64 /* ZiffiSaloonDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZiffiSaloonDataSource.m; sourceTree = "<group>"; };
+		2F725AB41B127FDE006E3A64 /* SaloonInfoTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SaloonInfoTableViewCell.h; sourceTree = "<group>"; };
+		2F725AB51B127FDE006E3A64 /* SaloonInfoTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SaloonInfoTableViewCell.m; sourceTree = "<group>"; };
+		2F725AB61B127FDE006E3A64 /* SaloonInfoTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SaloonInfoTableViewCell.xib; sourceTree = "<group>"; };
+		2F725AB91B12B30C006E3A64 /* ziffy.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ziffy.ttf; sourceTree = "<group>"; };
+		2F725ABF1B12B40D006E3A64 /* UILabel+TTFExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+TTFExtension.h"; sourceTree = "<group>"; };
+		2F725AC01B12B40D006E3A64 /* UILabel+TTFExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+TTFExtension.m"; sourceTree = "<group>"; };
+		2F725AC41B12FD9C006E3A64 /* ZiffiSaloonInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZiffiSaloonInfo.h; sourceTree = "<group>"; };
+		2F725AC51B12FD9C006E3A64 /* ZiffiSaloonInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZiffiSaloonInfo.m; sourceTree = "<group>"; };
+		2F725AC91B1306CB006E3A64 /* DatabaseManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DatabaseManager.h; sourceTree = "<group>"; };
+		2F725ACA1B1306CB006E3A64 /* DatabaseManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatabaseManager.m; sourceTree = "<group>"; };
+		2FB571CE1B0B172D00153983 /* Saloon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Saloon.h; sourceTree = "<group>"; };
+		2FB571CF1B0B172D00153983 /* Saloon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Saloon.m; sourceTree = "<group>"; };
+		2FB571D11B0B82F600153983 /* MetaInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MetaInfo.h; sourceTree = "<group>"; };
+		2FB571D21B0B82F600153983 /* MetaInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MetaInfo.m; sourceTree = "<group>"; };
+		2FB571D41B0B8FAF00153983 /* SaloonSearchResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SaloonSearchResult.h; sourceTree = "<group>"; };
+		2FB571D51B0B8FAF00153983 /* SaloonSearchResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SaloonSearchResult.m; sourceTree = "<group>"; };
+		2FB571D81B0BA89800153983 /* PreloaderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreloaderViewController.h; sourceTree = "<group>"; };
+		2FB571D91B0BA89800153983 /* PreloaderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreloaderViewController.m; sourceTree = "<group>"; };
+		2FB571DA1B0BA89800153983 /* PreloaderViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PreloaderViewController.xib; sourceTree = "<group>"; };
+		2FB571DD1B0C6B1B00153983 /* ZiffiSaloonManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZiffiSaloonManager.h; sourceTree = "<group>"; };
+		2FB571DE1B0C6B1B00153983 /* ZiffiSaloonManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZiffiSaloonManager.m; sourceTree = "<group>"; };
 		2FE33F5E1B09BF090045B181 /* Ziffi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ziffi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FE33F621B09BF090045B181 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2FE33F631B09BF090045B181 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -42,6 +81,14 @@
 		2FE33F7A1B09BF090045B181 /* ZiffiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZiffiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FE33F7F1B09BF090045B181 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2FE33F801B09BF090045B181 /* ZiffiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZiffiTests.m; sourceTree = "<group>"; };
+		2FE33F8B1B09C3AC0045B181 /* ServiceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceManager.h; sourceTree = "<group>"; };
+		2FE33F8C1B09C3AC0045B181 /* ServiceManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceManager.m; sourceTree = "<group>"; };
+		2FEE44561B146DFC00F61CF9 /* ShaddowButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShaddowButton.h; sourceTree = "<group>"; };
+		2FEE44571B146DFC00F61CF9 /* ShaddowButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShaddowButton.m; sourceTree = "<group>"; };
+		2FEE44591B14801000F61CF9 /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		51A13B4CBCFFDE349348C884 /* libPods-Ziffi.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Ziffi.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6175E065C389C8C240713402 /* Pods-Ziffi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ziffi.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Ziffi/Pods-Ziffi.debug.xcconfig"; sourceTree = "<group>"; };
+		8F29EE5849E20BBD38A223C5 /* Pods-Ziffi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ziffi.release.xcconfig"; path = "Pods/Target Support Files/Pods-Ziffi/Pods-Ziffi.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B720D056CF2367C09C3BA0D5 /* libPods-Ziffi.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,12 +110,84 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1101AF784A81B392F9CF2BC9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6175E065C389C8C240713402 /* Pods-Ziffi.debug.xcconfig */,
+				8F29EE5849E20BBD38A223C5 /* Pods-Ziffi.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		2F725ABA1B12B391006E3A64 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				2FEE44551B146D7C00F61CF9 /* UIButton */,
+				2FB571D81B0BA89800153983 /* PreloaderViewController.h */,
+				2FB571D91B0BA89800153983 /* PreloaderViewController.m */,
+				2FB571DA1B0BA89800153983 /* PreloaderViewController.xib */,
+				2F725ABB1B12B39C006E3A64 /* UILabelCategory */,
+			);
+			name = Util;
+			sourceTree = "<group>";
+		};
+		2F725ABB1B12B39C006E3A64 /* UILabelCategory */ = {
+			isa = PBXGroup;
+			children = (
+				2F725ABF1B12B40D006E3A64 /* UILabel+TTFExtension.h */,
+				2F725AC01B12B40D006E3A64 /* UILabel+TTFExtension.m */,
+			);
+			name = UILabelCategory;
+			sourceTree = "<group>";
+		};
+		2F725AC21B12BC8B006E3A64 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2F725AB91B12B30C006E3A64 /* ziffy.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		2F725AC71B130431006E3A64 /* DatabaseManager */ = {
+			isa = PBXGroup;
+			children = (
+				2F725AC81B130443006E3A64 /* DB_Entities */,
+				2F725AC91B1306CB006E3A64 /* DatabaseManager.h */,
+				2F725ACA1B1306CB006E3A64 /* DatabaseManager.m */,
+			);
+			name = DatabaseManager;
+			sourceTree = "<group>";
+		};
+		2F725AC81B130443006E3A64 /* DB_Entities */ = {
+			isa = PBXGroup;
+			children = (
+				2F725AC41B12FD9C006E3A64 /* ZiffiSaloonInfo.h */,
+				2F725AC51B12FD9C006E3A64 /* ZiffiSaloonInfo.m */,
+			);
+			name = DB_Entities;
+			sourceTree = "<group>";
+		};
+		2FB571CD1B0B168400153983 /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				2FB571CE1B0B172D00153983 /* Saloon.h */,
+				2FB571CF1B0B172D00153983 /* Saloon.m */,
+				2FB571D11B0B82F600153983 /* MetaInfo.h */,
+				2FB571D21B0B82F600153983 /* MetaInfo.m */,
+				2FB571D41B0B8FAF00153983 /* SaloonSearchResult.h */,
+				2FB571D51B0B8FAF00153983 /* SaloonSearchResult.m */,
+			);
+			name = DataModel;
+			sourceTree = "<group>";
+		};
 		2FE33F551B09BF090045B181 = {
 			isa = PBXGroup;
 			children = (
 				2FE33F601B09BF090045B181 /* Ziffi */,
 				2FE33F7D1B09BF090045B181 /* ZiffiTests */,
 				2FE33F5F1B09BF090045B181 /* Products */,
+				1101AF784A81B392F9CF2BC9 /* Pods */,
+				40FDA8C4A6E7673E303416FB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -83,6 +203,10 @@
 		2FE33F601B09BF090045B181 /* Ziffi */ = {
 			isa = PBXGroup;
 			children = (
+				2F725AC71B130431006E3A64 /* DatabaseManager */,
+				2F725ABA1B12B391006E3A64 /* Util */,
+				2FB571CD1B0B168400153983 /* DataModel */,
+				2FE33F8A1B09C3880045B181 /* ServiceManager */,
 				2FE33F651B09BF090045B181 /* AppDelegate.h */,
 				2FE33F661B09BF090045B181 /* AppDelegate.m */,
 				2FE33F6B1B09BF090045B181 /* ViewController.h */,
@@ -92,6 +216,14 @@
 				2FE33F731B09BF090045B181 /* LaunchScreen.xib */,
 				2FE33F681B09BF090045B181 /* Ziffi.xcdatamodeld */,
 				2FE33F611B09BF090045B181 /* Supporting Files */,
+				2FB571DD1B0C6B1B00153983 /* ZiffiSaloonManager.h */,
+				2FB571DE1B0C6B1B00153983 /* ZiffiSaloonManager.m */,
+				2F725AB11B1272E8006E3A64 /* ZiffiSaloonDataSource.h */,
+				2F725AB21B1272E8006E3A64 /* ZiffiSaloonDataSource.m */,
+				2F725AB41B127FDE006E3A64 /* SaloonInfoTableViewCell.h */,
+				2F725AB51B127FDE006E3A64 /* SaloonInfoTableViewCell.m */,
+				2F725AB61B127FDE006E3A64 /* SaloonInfoTableViewCell.xib */,
+				2FEE44591B14801000F61CF9 /* Constants.h */,
 			);
 			path = Ziffi;
 			sourceTree = "<group>";
@@ -122,6 +254,33 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		2FE33F8A1B09C3880045B181 /* ServiceManager */ = {
+			isa = PBXGroup;
+			children = (
+				2F725AC21B12BC8B006E3A64 /* Resources */,
+				2FE33F8B1B09C3AC0045B181 /* ServiceManager.h */,
+				2FE33F8C1B09C3AC0045B181 /* ServiceManager.m */,
+			);
+			name = ServiceManager;
+			sourceTree = "<group>";
+		};
+		2FEE44551B146D7C00F61CF9 /* UIButton */ = {
+			isa = PBXGroup;
+			children = (
+				2FEE44561B146DFC00F61CF9 /* ShaddowButton.h */,
+				2FEE44571B146DFC00F61CF9 /* ShaddowButton.m */,
+			);
+			name = UIButton;
+			sourceTree = "<group>";
+		};
+		40FDA8C4A6E7673E303416FB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				51A13B4CBCFFDE349348C884 /* libPods-Ziffi.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -129,9 +288,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2FE33F841B09BF090045B181 /* Build configuration list for PBXNativeTarget "Ziffi" */;
 			buildPhases = (
+				53CAA8D24E596ACC2EA739E9 /* Check Pods Manifest.lock */,
 				2FE33F5A1B09BF090045B181 /* Sources */,
 				2FE33F5B1B09BF090045B181 /* Frameworks */,
 				2FE33F5C1B09BF090045B181 /* Resources */,
+				0F1D14B48A1B00C94836C26E /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -202,7 +363,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F725AC31B12BD9F006E3A64 /* ziffy.ttf in Resources */,
+				2F725AB81B127FDE006E3A64 /* SaloonInfoTableViewCell.xib in Resources */,
 				2FE33F701B09BF090045B181 /* Main.storyboard in Resources */,
+				2FB571DC1B0BA89800153983 /* PreloaderViewController.xib in Resources */,
 				2FE33F751B09BF090045B181 /* LaunchScreen.xib in Resources */,
 				2FE33F721B09BF090045B181 /* Images.xcassets in Resources */,
 			);
@@ -217,15 +381,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0F1D14B48A1B00C94836C26E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Ziffi/Pods-Ziffi-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		53CAA8D24E596ACC2EA739E9 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2FE33F5A1B09BF090045B181 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2FEE44581B146DFC00F61CF9 /* ShaddowButton.m in Sources */,
+				2FB571D61B0B8FAF00153983 /* SaloonSearchResult.m in Sources */,
+				2F725AB31B1272E8006E3A64 /* ZiffiSaloonDataSource.m in Sources */,
 				2FE33F671B09BF090045B181 /* AppDelegate.m in Sources */,
 				2FE33F6A1B09BF090045B181 /* Ziffi.xcdatamodeld in Sources */,
+				2FE33F8D1B09C3AC0045B181 /* ServiceManager.m in Sources */,
+				2FB571D01B0B172D00153983 /* Saloon.m in Sources */,
 				2FE33F6D1B09BF090045B181 /* ViewController.m in Sources */,
+				2FB571DF1B0C6B1B00153983 /* ZiffiSaloonManager.m in Sources */,
+				2F725AB71B127FDE006E3A64 /* SaloonInfoTableViewCell.m in Sources */,
+				2F725AC61B12FD9C006E3A64 /* ZiffiSaloonInfo.m in Sources */,
+				2FB571D31B0B82F600153983 /* MetaInfo.m in Sources */,
+				2F725AC11B12B40D006E3A64 /* UILabel+TTFExtension.m in Sources */,
 				2FE33F641B09BF090045B181 /* main.m in Sources */,
+				2F725ACB1B1306CB006E3A64 /* DatabaseManager.m in Sources */,
+				2FB571DB1B0BA89800153983 /* PreloaderViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -345,21 +554,25 @@
 		};
 		2FE33F851B09BF090045B181 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6175E065C389C8C240713402 /* Pods-Ziffi.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Ziffi/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		2FE33F861B09BF090045B181 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F29EE5849E20BBD38A223C5 /* Pods-Ziffi.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Ziffi/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -416,6 +629,7 @@
 				2FE33F861B09BF090045B181 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2FE33F871B09BF090045B181 /* Build configuration list for PBXNativeTarget "ZiffiTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +638,7 @@
 				2FE33F891B09BF090045B181 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
