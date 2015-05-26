@@ -33,7 +33,7 @@
     // Do any additional setup after loading the view, typically from a nib.
     //[self addPreLoaderViewViewController];
     ZiffiSaloonManager *ziffiSaloonManager = [ZiffiSaloonManager getInstance];
-    [ziffiSaloonManager fetchSaloonResultsFromServer];
+    [ziffiSaloonManager fetchDataFromServerForPageNO:0];
     ziffiDataSource = [[ZiffiSaloonDataSource alloc] init];
     searchBarOutlet.delegate = self;
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(saloonDataUpdated) name:@"SaloonDataUpdated" object:nil];

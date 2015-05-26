@@ -53,7 +53,7 @@
     self.saloonAddress.text  = currentSaloon.address;
     self.saloonName.text = currentSaloon.saloonName;
     self.saloonType.text = currentSaloon.saloonType;
-    [self setRating:[currentSaloon.rating integerValue]];
+    [self setRating:[currentSaloon.rating floatValue]];
     NSMutableAttributedString *distanceAttributedStr = [[NSMutableAttributedString alloc] initWithString:@"2.35km"];
     [distanceAttributedStr addAttribute:NSForegroundColorAttributeName value:[UIColor colorWithHexString:ATTRIBUTED_LBL_COLOR] range:NSMakeRange(0, 6)];
     self.saloonDistance.attributedText = distanceAttributedStr;
@@ -69,15 +69,15 @@
     
     
 }
--(void)setRating:(NSInteger)rating
+-(void)setRating:(float)rating
 {
-    [self.firstStarLbl setFilledTTFFont:@"r" withFontSize:18.0 fontColor:[UIColor whiteColor] fromRating:rating];
-    [self.secondStarLbl setFilledTTFFont:@"r" withFontSize:18.0 fontColor:[UIColor whiteColor] fromRating:rating];
+    [self.firstStarLbl setFilledTTFFont:EMPTY_STAR_FONT_VALUE withFontSize:18.0 fontColor:[UIColor whiteColor] fromRating:rating];
+    [self.secondStarLbl setFilledTTFFont:EMPTY_STAR_FONT_VALUE withFontSize:18.0 fontColor:[UIColor whiteColor] fromRating:rating];
 
-    [self.thirdStarLbl setFilledTTFFont:@"r" withFontSize:18.0 fontColor:[UIColor whiteColor] fromRating:rating];
-    [self.fourthStarLbl setFilledTTFFont:@"r" withFontSize:18.0 fontColor:[UIColor whiteColor] fromRating:rating];
+    [self.thirdStarLbl setFilledTTFFont:EMPTY_STAR_FONT_VALUE withFontSize:18.0 fontColor:[UIColor whiteColor] fromRating:rating];
+    [self.fourthStarLbl setFilledTTFFont:EMPTY_STAR_FONT_VALUE withFontSize:18.0 fontColor:[UIColor whiteColor] fromRating:rating];
 
-    [self.fifthStarLbl setFilledTTFFont:@"r" withFontSize:18.0 fontColor:[UIColor whiteColor] fromRating:rating];
+    [self.fifthStarLbl setFilledTTFFont:EMPTY_STAR_FONT_VALUE withFontSize:18.0 fontColor:[UIColor whiteColor] fromRating:rating];
     
     
 

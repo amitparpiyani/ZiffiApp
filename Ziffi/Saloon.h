@@ -32,9 +32,11 @@
 @property (nonatomic,strong)NSString <Optional> *offerText;
 @property (nonatomic,strong)NSString <Optional> *offerDescription;
 @property (nonatomic,assign)NSInteger rank;
+
 @property (nonatomic,strong)NSString *saloonType;
 @property (nonatomic,strong)NSString <Optional> *imageUrl;
 @property (nonatomic,strong)NSString *servicesUrl;
+
 
 
 

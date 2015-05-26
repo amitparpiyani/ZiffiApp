@@ -63,7 +63,7 @@
 {
     if (currentRow > [[ZiffiSaloonManager getInstance] getLoadedSaloonCount]-5 && currentRow < [[ZiffiSaloonManager getInstance] getSaloonResult].metaInfo.resultCount && ![[ZiffiSaloonManager getInstance] iSFetchInProgress])
     {
-        [[ZiffiSaloonManager getInstance] fetchSaloonResultsFromServer];
+        [[ZiffiSaloonManager getInstance] fetchNewDataFromServer];
     }
 }
 

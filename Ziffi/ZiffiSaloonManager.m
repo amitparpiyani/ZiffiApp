@@ -67,21 +67,28 @@
     [allSaloonRecords addObjectsFromArray:ziffiSaloonInfo.saloonsInformation];
     
 }
--(void)fetchSaloonResultsFromServer
+-(void)fetchDataFromServerForPageNO:(NSInteger)pageNo
+{
+    searchString = [NSString stringWithFormat:@"%@=%@&%@=%d&%@=%@&%@=%@",@"vertical",@"salons-spas",@"city_id",4,@"q",@"Hair",@"page",[NSString stringWithFormat:@"%ld",pageNo]];
+    [self fetchSaloonResultsFromServer:searchString];
+
+    
+    
+    
+}
+
+-(void)fetchNewDataFromServer
+{
+    searchString = [NSString stringWithFormat:@"%@=%@&%@=%d&%@=%@&%@=%@",@"vertical",@"salons-spas",@"city_id",4,@"q",@"Hair",@"page",[NSString stringWithFormat:@"%ld",numberOfPagesLoaded+1]];
+    [self fetchSaloonResultsFromServer:searchString];
+
+}
+-(void)fetchSaloonResultsFromServer:(NSString *)searsParams
 {
     bDataFetchInProgress = YES;
-    if (numberOfPagesLoaded==0) {
-        searchString =     searchString = [NSString stringWithFormat:@"%@=%@&%@=%d&%@=%@&%@=%@",@"vertical",@"salons-spas",@"city_id",4,@"q",@"Hair",@"page",@"0"];
+    
 
-    }
-    else
-    {
-        searchString = [NSString stringWithFormat:@"%@=%@&%@=%d&%@=%@&%@=%@",@"vertical",@"salons-spas",@"city_id",4,@"q",@"Hair",@"page",[NSString stringWithFormat:@"%ld",numberOfPagesLoaded+1]];
-        numberOfPagesLoaded+=1;
-        
-    }
-
-    [ServiceManager searchZiffiForWithCriteria:searchString andCompletionBlock:^(BOOL success,NSString *responseString,NSError *error)
+    [ServiceManager searchZiffiForWithCriteria:searsParams andCompletionBlock:^(BOOL success,NSString *responseString,NSError *error)
      {
          if (error) {
              NSLog(@"%@",[error description]);

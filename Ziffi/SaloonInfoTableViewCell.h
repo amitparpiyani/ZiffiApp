@@ -24,7 +24,6 @@
 
 
 -(void)updateMovieThumbnail:(NSString *)path;
--(void)setRating:(NSInteger)rating;
 -(void)setupCellWithSaloon:(Saloon *)saloon;
 
 @end

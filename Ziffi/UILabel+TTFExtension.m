@@ -7,6 +7,7 @@
 //
 
 #import "UILabel+TTFExtension.h"
+#import "Constants.h"
 
 @implementation UILabel (TTFExtension)
 - (void)setFilledTTFFont:(NSString *)fontText withFontSize:(float)fontSize fontColor:(UIColor *)fontColor fromRating:(NSInteger)rating
@@ -16,11 +17,15 @@
 
     self.textColor = fontColor;
     self.text = fontText;
-    if (self.tag<=rating)
+    if (rating>self.tag)
     {
-        self.text = @"a";
+        self.text = FULL_STAR_FONT_VALUE;
 
         
+    }
+    else if (rating<=self.tag && rating+0.5 >= self.tag )
+    {
+        self.text = HALF_STAR_FONT_VALUE;
     }
 }
 

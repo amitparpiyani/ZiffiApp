@@ -11,12 +11,12 @@
 @interface ZiffiSaloonManager : NSObject
 
 + (ZiffiSaloonManager *)getInstance;
--(void)fetchSaloonResultsFromServer;
 -(NSInteger)getLoadedSaloonCount;
 -(SaloonSearchResult *)getSaloonResult;
 -(NSArray *)getSaloonArray;
 -(NSInteger )loadedPagesCount;
 - (BOOL)iSFetchInProgress;
-
+-(void)fetchDataFromServerForPageNO:(NSInteger)pageNo;
+-(void)fetchNewDataFromServer;
 
 @end

@@ -52,7 +52,6 @@
 + (UIColor *)colorWithString:(NSString *)stringToConvert;
 + (UIColor *)colorWithRGBHex:(UInt32)hex;
 + (UIColor *)colorWithHexString:(NSString *)stringToConvert;
-+ (UIColor *)colorFromArray:(NSArray*)colorInfo;
 + (UIColor *)colorWithName:(NSString *)cssColorName;
 
 @end
