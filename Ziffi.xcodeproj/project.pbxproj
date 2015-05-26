@@ -30,6 +30,7 @@
 		2FE33F811B09BF090045B181 /* ZiffiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FE33F801B09BF090045B181 /* ZiffiTests.m */; };
 		2FE33F8D1B09C3AC0045B181 /* ServiceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FE33F8C1B09C3AC0045B181 /* ServiceManager.m */; };
 		2FEE44581B146DFC00F61CF9 /* ShaddowButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FEE44571B146DFC00F61CF9 /* ShaddowButton.m */; };
+		2FEE445D1B148F4100F61CF9 /* UIColor-Expanded.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FEE445C1B148F4100F61CF9 /* UIColor-Expanded.m */; };
 		B720D056CF2367C09C3BA0D5 /* libPods-Ziffi.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 51A13B4CBCFFDE349348C884 /* libPods-Ziffi.a */; };
 /* End PBXBuildFile section */
 
@@ -86,6 +87,8 @@
 		2FEE44561B146DFC00F61CF9 /* ShaddowButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShaddowButton.h; sourceTree = "<group>"; };
 		2FEE44571B146DFC00F61CF9 /* ShaddowButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShaddowButton.m; sourceTree = "<group>"; };
 		2FEE44591B14801000F61CF9 /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		2FEE445B1B148F4100F61CF9 /* UIColor-Expanded.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor-Expanded.h"; sourceTree = "<group>"; };
+		2FEE445C1B148F4100F61CF9 /* UIColor-Expanded.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor-Expanded.m"; sourceTree = "<group>"; };
 		51A13B4CBCFFDE349348C884 /* libPods-Ziffi.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Ziffi.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6175E065C389C8C240713402 /* Pods-Ziffi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ziffi.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Ziffi/Pods-Ziffi.debug.xcconfig"; sourceTree = "<group>"; };
 		8F29EE5849E20BBD38A223C5 /* Pods-Ziffi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ziffi.release.xcconfig"; path = "Pods/Target Support Files/Pods-Ziffi/Pods-Ziffi.release.xcconfig"; sourceTree = "<group>"; };
@@ -122,6 +125,7 @@
 		2F725ABA1B12B391006E3A64 /* Util */ = {
 			isa = PBXGroup;
 			children = (
+				2FEE445A1B148F2A00F61CF9 /* UICOLOR */,
 				2FEE44551B146D7C00F61CF9 /* UIButton */,
 				2FB571D81B0BA89800153983 /* PreloaderViewController.h */,
 				2FB571D91B0BA89800153983 /* PreloaderViewController.m */,
@@ -271,6 +275,15 @@
 				2FEE44571B146DFC00F61CF9 /* ShaddowButton.m */,
 			);
 			name = UIButton;
+			sourceTree = "<group>";
+		};
+		2FEE445A1B148F2A00F61CF9 /* UICOLOR */ = {
+			isa = PBXGroup;
+			children = (
+				2FEE445B1B148F4100F61CF9 /* UIColor-Expanded.h */,
+				2FEE445C1B148F4100F61CF9 /* UIColor-Expanded.m */,
+			);
+			name = UICOLOR;
 			sourceTree = "<group>";
 		};
 		40FDA8C4A6E7673E303416FB /* Frameworks */ = {
@@ -426,6 +439,7 @@
 				2FE33F6A1B09BF090045B181 /* Ziffi.xcdatamodeld in Sources */,
 				2FE33F8D1B09C3AC0045B181 /* ServiceManager.m in Sources */,
 				2FB571D01B0B172D00153983 /* Saloon.m in Sources */,
+				2FEE445D1B148F4100F61CF9 /* UIColor-Expanded.m in Sources */,
 				2FE33F6D1B09BF090045B181 /* ViewController.m in Sources */,
 				2FB571DF1B0C6B1B00153983 /* ZiffiSaloonManager.m in Sources */,
 				2F725AB71B127FDE006E3A64 /* SaloonInfoTableViewCell.m in Sources */,

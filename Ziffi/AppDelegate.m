@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "Constants.h"
+#import "UIColor-Expanded.h"
 
 @interface AppDelegate ()
 
@@ -28,6 +30,11 @@ static NSOperationQueue *connectionQueue;
 }
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    //[[UITabBar appearance] setTintColor: [UIColor colorWithHexString:ATTRIBUTED_LBL_COLOR]];
+    [[UITabBarItem appearance] setTitleTextAttributes: @{NSForegroundColorAttributeName: [UIColor whiteColor], NSFontAttributeName: [UIFont fontWithName:@"ziffy" size:30.0f]} forState:UIControlStateNormal];
+    [[UITabBarItem appearance] setTitleTextAttributes: @{NSForegroundColorAttributeName: [UIColor colorWithHexString:ATTRIBUTED_LBL_COLOR], NSFontAttributeName: [UIFont fontWithName:@"ziffy" size:28.0f]} forState:UIControlStateSelected];
+    [[UITabBarItem appearance] setTitlePositionAdjustment:UIOffsetMake(0.0f, -8.0f)];
+
     return YES;
 }
 

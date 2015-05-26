@@ -128,6 +128,10 @@
                                 </state>
                                 <state key="highlighted" title="Book Now"/>
                             </button>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="white" translatesAutoresizingMaskIntoConstraints="NO" id="KXm-Xj-ywE">
+                                <rect key="frame" x="194" y="79" width="20" height="20"/>
+                                <color key="color" red="0.88990752549999996" green="0.095245685319999995" blue="0.071321824640000003" alpha="1" colorSpace="calibratedRGB"/>
+                            </activityIndicatorView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
@@ -135,6 +139,7 @@
                             <constraint firstItem="u5w-kc-eV0" firstAttribute="leading" secondItem="MYx-sf-apN" secondAttribute="leading" constant="10" id="2lf-Kv-jVV"/>
                             <constraint firstAttribute="trailing" secondItem="iJb-dc-dRb" secondAttribute="trailing" constant="10" id="3OY-nj-sMk"/>
                             <constraint firstAttribute="trailing" secondItem="Kjv-MK-cgM" secondAttribute="trailing" id="4gS-hy-Tg5"/>
+                            <constraint firstItem="MYx-sf-apN" firstAttribute="centerX" secondItem="KXm-Xj-ywE" secondAttribute="centerX" id="4ls-uj-EJ5"/>
                             <constraint firstItem="u5w-kc-eV0" firstAttribute="top" secondItem="MYx-sf-apN" secondAttribute="bottom" constant="10" id="57M-8k-YIB"/>
                             <constraint firstItem="u5w-kc-eV0" firstAttribute="top" secondItem="ZLe-hq-1O0" secondAttribute="bottom" constant="5" id="58A-oH-8aG"/>
                             <constraint firstItem="MYx-sf-apN" firstAttribute="leading" secondItem="Phg-Pw-aqK" secondAttribute="leading" id="DBd-zf-87e"/>
@@ -145,6 +150,8 @@
                             <constraint firstAttribute="trailing" secondItem="MYx-sf-apN" secondAttribute="trailing" id="Ttj-zF-aBD"/>
                             <constraint firstItem="ZNW-uj-goK" firstAttribute="trailing" secondItem="MYx-sf-apN" secondAttribute="trailing" id="XA1-FD-3iH"/>
                             <constraint firstItem="ZNW-uj-goK" firstAttribute="centerX" secondItem="MYx-sf-apN" secondAttribute="centerX" id="b7G-pa-8xZ"/>
+                            <constraint firstItem="ZNW-uj-goK" firstAttribute="centerX" secondItem="KXm-Xj-ywE" secondAttribute="centerX" constant="0.5" id="c39-YC-Wq1"/>
+                            <constraint firstItem="MYx-sf-apN" firstAttribute="centerY" secondItem="KXm-Xj-ywE" secondAttribute="centerY" id="dkT-xM-za7"/>
                             <constraint firstItem="ZLe-hq-1O0" firstAttribute="leading" secondItem="u5w-kc-eV0" secondAttribute="leading" id="e43-eF-ipw"/>
                             <constraint firstItem="ZNW-uj-goK" firstAttribute="leading" secondItem="MYx-sf-apN" secondAttribute="trailing" constant="-269" id="iAU-EU-fL2"/>
                             <constraint firstItem="ZNW-uj-goK" firstAttribute="width" secondItem="MYx-sf-apN" secondAttribute="width" id="mQH-MR-4Hx"/>
@@ -156,6 +163,7 @@
                         </constraints>
                         <variation key="default">
                             <mask key="constraints">
+                                <exclude reference="c39-YC-Wq1"/>
                                 <exclude reference="iAU-EU-fL2"/>
                                 <exclude reference="vht-UW-hJE"/>
                                 <exclude reference="57M-8k-YIB"/>
@@ -182,6 +190,7 @@
                 <outlet property="fifthStarLbl" destination="q9l-tZ-xoX" id="srg-ql-qiu"/>
                 <outlet property="firstStarLbl" destination="qed-94-D2u" id="0dc-kK-WtE"/>
                 <outlet property="fourthStarLbl" destination="eJC-hM-Sf7" id="tqc-EH-4vo"/>
+                <outlet property="loadingIndicator" destination="KXm-Xj-ywE" id="Qoj-4y-d3S"/>
                 <outlet property="minServiceRate" destination="ZLe-hq-1O0" id="Bid-Ya-sVY"/>
                 <outlet property="saloonAddress" destination="u5w-kc-eV0" id="XuB-hT-D8Z"/>
                 <outlet property="saloonDistance" destination="iJb-dc-dRb" id="89q-Ac-lLm"/>

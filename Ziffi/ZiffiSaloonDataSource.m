@@ -11,6 +11,7 @@
 #import "ZiffiSaloonManager.h"
 #import "SaloonInfoTableViewCell.h"
 #import "Constants.h"
+#import "UIColor-Expanded.h"
 
 @interface ZiffiSaloonDataSource ()
 {
@@ -50,15 +51,10 @@
         
     }
     [self loadNewDataIfRequired:indexPath.row];
+    cell.selectionStyle = UITableViewCellSelectionStyleNone;
     NSArray *saloonArray = [[ZiffiSaloonManager getInstance]getSaloonArray];
     Saloon *currentSaloon = [saloonArray objectAtIndex:indexPath.row];
-    cell.saloonAddress.text  = currentSaloon.address;
-    cell.minServiceRate.text = [NSString stringWithFormat:@"%@ %ld %@ %@",RUPEE_SYMBOL_UNICODE,(long)currentSaloon.minFees,NSLocalizedString(@"for", @"For text"),currentSaloon.minFeesService];
-    
-    cell.saloonName.text = currentSaloon.saloonName;
-    cell.saloonType.text = currentSaloon.saloonType;
-    [cell setRating:[currentSaloon.rating integerValue]];
-    [cell updateMovieThumbnail:currentSaloon.imageUrl];
+    [cell setupCellWithSaloon:currentSaloon];
     
     return cell;
 }

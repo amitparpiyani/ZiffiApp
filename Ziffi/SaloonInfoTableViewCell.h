@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
+@class Saloon;
 @interface SaloonInfoTableViewCell : UITableViewCell
 @property (weak, nonatomic) IBOutlet UIImageView *saloonImg;
 @property (weak, nonatomic) IBOutlet UILabel *saloonAddress;
@@ -20,9 +20,11 @@
 @property (weak, nonatomic) IBOutlet UILabel *thirdStarLbl;
 @property (weak, nonatomic) IBOutlet UILabel *fourthStarLbl;
 @property (weak, nonatomic) IBOutlet UILabel *fifthStarLbl;
+@property (weak, nonatomic) IBOutlet UIActivityIndicatorView *loadingIndicator;
 
 
 -(void)updateMovieThumbnail:(NSString *)path;
 -(void)setRating:(NSInteger)rating;
+-(void)setupCellWithSaloon:(Saloon *)saloon;
 
 @end

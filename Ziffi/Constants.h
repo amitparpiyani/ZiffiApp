@@ -9,5 +9,6 @@
 #ifndef Ziffi_Constants_h
 #define Ziffi_Constants_h
 #define RUPEE_SYMBOL_UNICODE  @"\u20B9"
+#define ATTRIBUTED_LBL_COLOR @"#48CCCD"
 
 #endif

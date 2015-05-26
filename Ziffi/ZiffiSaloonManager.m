@@ -47,6 +47,8 @@
         bDataFetchInProgress = NO;
         allSaloonRecords = [[NSMutableArray alloc] init];
         [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(appWillResignActive) name:UIApplicationWillResignActiveNotification object:nil];
+        [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(appWillResignActive) name:UIApplicationWillTerminateNotification object:nil];
+
         DatabaseManager *databaseManager = [[DatabaseManager alloc] init];
         ZiffiSaloonInfo *ziffiSaloonInfo = [databaseManager fetchZiffiSaloonInformation];
         [self updateZiffiManagerFromDB:ziffiSaloonInfo];
@@ -62,7 +64,7 @@
 {
     numberOfPagesLoaded = [ziffiSaloonInfo.pagesLoaded integerValue];
     numberOfResultsLoaded = [ziffiSaloonInfo.loadedResults integerValue];
-    allSaloonRecords = ziffiSaloonInfo.saloonsInformation;
+    [allSaloonRecords addObjectsFromArray:ziffiSaloonInfo.saloonsInformation];
     
 }
 -(void)fetchSaloonResultsFromServer
@@ -133,5 +135,12 @@
 {
     DatabaseManager *databaseManager = [[DatabaseManager alloc] init];
     [databaseManager saveLoadedData];
+}
+
+- (void)dealloc
+{
+    [[NSNotificationCenter defaultCenter] removeObserver:self name:UIApplicationWillResignActiveNotification object:nil];
+    [[NSNotificationCenter defaultCenter] removeObserver:self name:UIApplicationWillTerminateNotification object:nil];
+
 }
 @end
